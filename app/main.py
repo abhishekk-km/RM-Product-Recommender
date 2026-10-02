@@ -164,8 +164,6 @@ def show(o, prob, p):
                          color_discrete_sequence=PAL, title="Product fit ranking")
             fig.update_yaxes(autorange="reversed", title=None)
             plot(style(fig, 400))
-    with st.expander("Customer brief for your Claude Project"):
-        st.code(brief(o, prob), language="text")
 
 
 def portfolio(d, seg_t, ls_t):
