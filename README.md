@@ -1,4 +1,4 @@
-# ICICI RM Product Recommendation Assistant
+# RM Product Recommendation Assistant
 
 A decision-support tool that mimics how a Relationship Manager (RM) thinks: build a Customer 360 profile, segment the customer, apply eligibility rules, rank products with reasoning, and hand a structured brief to a Claude Project that explains the recommendation in plain RM language.
 
@@ -35,9 +35,7 @@ UCI Bank Marketing (`bank-full.csv`, 45,211 records, Portuguese bank). Balance i
 - Ranking: segment fit, life-stage fit, protection-first bonus for insurance
 - Propensity: logistic regression on customer attributes
 
-## Claude Project
 
-`claude_project/system_prompt.md` goes in the project instructions. Upload `product_catalog.md`, `rm_rules.md` and `data/processed/customer_profiles_sample.csv` as knowledge.
 
 ## Limitations
 
